@@ -147,6 +147,6 @@ feature_2 = pd.merge(feature_2,f2_7,on=['start_geo_id','end_geo_id','create_date
 feature_2['f2_6_7'] = (feature_2['f2_6']+feature_2['f2_7'])/2
 del feature_2['f2_6']
 del feature_2['f2_7']
-
+# f6_7 done,git done
 print feature_2
 
